@@ -6,7 +6,7 @@
 
 ## Description of Project Folders
 ### 00_data
- - `OnlineNewsPopularity.csv`
+ - `OnlineNewsPopularity.csv`  
 There are 39,644 online news.  
 There are 61 features in total, where 58 predictive, 2 non-predictive and 1 target/goal features.  
 
