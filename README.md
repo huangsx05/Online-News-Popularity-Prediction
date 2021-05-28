@@ -16,7 +16,7 @@ The objective can be fulfilled by a classification-based approach.
 For classification-based approach, the target values need to be converted to different class labels. This is done with the aid of clustering analysis on the target.  
 
 ### 02_EDA  
- - `5151 EDA.ipynb` 
+ - `5151 EDA.ipynb`   
 This file contains EDA for the distributions of the target and different features.  
 
 ### 03_models 
@@ -34,7 +34,7 @@ This folder contains the models for running.
 LGBM has the best performance.  
 Step 1: After initial feature selection (by domain knowledge), the selected features are fed into the model. Bayes Optimization is used for parameters tuning.    
 Step 2: Feature importance for the features are obtained and sorted in a decending order.  
-Step 3: The features are fed into the model again one by one in the order of feature importance. A feature is kept if the model performance increases, or removed if the model performance drops.
+Step 3: The features are fed into the model again one by one in the order of feature importance. A feature is kept if the model performance increases, or removed if the model performance drops.  
 Step 4: The final selected features are used for the final round of model training, with the hyper-parameters retuned with Bayes Optimization.  
 
 ### 04_report
